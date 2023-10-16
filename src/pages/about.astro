@@ -3,20 +3,22 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 import ContactCTA from '../components/ContactCTA.astro';
 import Hero from '../components/Hero.astro';
+
+import Grid from '../components/Grid.astro';
 ---
 
-<BaseLayout title="About | Jeanine White" description="About Jeanine White Lorem Ipsum">
+<BaseLayout title="About | Lucfreelance" description="Welcome to Lucfreelance's Web Frontend Developer Portfolio 2023">
 	<div class="stack gap-20">
 		<main class="wrapper about">
 			<Hero
 				title="About"
-				tagline="Thanks for stopping by. Read below to learn more about myself and my background."
+				tagline="Here an close-up to Soe Lucas better known as Lucfreelance in digital environments."
 			>
 				<img
 					width="1553"
 					height="873"
-					src="/assets/at-work.jpg"
-					alt="Jeanine White at work with a colleague"
+					src="/assets/imaginery/develop.jpg"
+					alt="Lucfreelance at work with a colleague"
 				/>
 			</Hero>
 
@@ -24,36 +26,76 @@ import Hero from '../components/Hero.astro';
 				<h2 class="section-title">Background</h2>
 				<div class="content">
 					<p>
-						Lorem ipsum dolor sit amet, <a href="https://astro.build/">Astro</a> makes people happy.
-						Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Proin nibh nisl
-						condimentum id venenatis a condimentum vitae. Dapibus ultrices in iaculis nunc. Arcu
-						odio ut sem nulla pharetra diam sit amet. Diam quis enim lobortis scelerisque fermentum
-						dui faucibus in ornare.
+						Dedicated to crafting outstanding digital experiences, I specialize in building websites using frameworks such as Hugo, Astro, Jekyll, and e11y. I excel in integrating databases, paywalls, modules, and libraries for seamless functionality. As a passionate frontend developer, my expertise extends beyond coding to include a background in writing and advertising.
 					</p>
+					<br>
 					<p>
-						Arcu dui vivamus arcu felis bibendum ut tristique et egestas. Eget gravida cum sociis
-						natoque penatibus. Cras fermentum odio eu feugiat pretium nibh. Proin nibh nisl
-						condimentum id venenatis. Porta nibh venenatis cras sed felis eget velit. Id diam vel
-						quam elementum pulvinar etiam non.
+						Fifteen years ago, I graduated as a technical advertiser, marking the beginning of my professional journey. Since then, I've immersed myself in entrepreneurship, branding, and communication. I've also explored creative realms like writing, painting, character creation, and muraling. Despite its apparent disconnect, I firmly believe that code is intertwined with every aspect of our lives. Additionally, I was introduced to the realms of digital marketing and web design during a grade project.
 					</p>
+					<br>
 					<p>
-						Ultrices tincidunt arcu non sodales neque sodales ut. Sed enim ut sem viverra aliquet
-						eget sit amet. Lacus luctus accumsan tortor posuere ac ut consequat semper viverra.
-						Viverra accumsan in nisl nisi scelerisque eu ultrices. In massa tempor nec feugiat nisl
-						pretium fusce.
+						Around eight years ago, I transitioned to online collaborations, engaging with platforms such as CrowdFlower for remote projects. There, I became an integral part of various teams, contributing significantly to extensive initiatives. I played pivotal roles within the Appen Connect team, including Search Online Evaluator, for substantial, long-term projects on major social media platforms.
 					</p>
 				</div>
 			</section>
 			<section>
 				<h2 class="section-title">Education</h2>
 				<div class="content">
-					<p>Corporis voluptates tenetur laudantium.</p>
+					<p>With a Computer Science approach, previously in digital marketing and advertising. Here's an approach to my educational background:</p>
+					
+					<div class="gallery">
+						<Grid variant="small">
+							{
+								['MOOC.fi', 'Platzi', 'Udemy', 'SAYA', 'FADP'].map((brand) => (
+									<li class="mention-card">
+										<p>{brand}</p>
+									</li>
+								))
+							}
+						</Grid>
+					</div>
+
 				</div>
 			</section>
+
 			<section>
 				<h2 class="section-title">Skills</h2>
 				<div class="content">
-					<p>officia unde omnis</p>
+					<p>DIY person kind of, authodicdatical. I've been enrolling activities to grow my skills like this:</p>
+					<li>All</li>
+					<li>Languages</li>
+						<li>HTML5</li>
+						<li>CSS3</li>
+						<li>JavaScript</li>
+						<li>SASS</li>
+						<li>Python</li>
+						<li>PHP</li>
+						<li>MarkDown</li>
+					<li>Frameworks</li>
+						<li>React.js</li>
+						<li>Vite</li>
+						<li>Hugo</li>
+						<li>Astro</li>
+						<li>Jekyll</li>
+						<li>Flask</li>
+						<li>Gatsby</li>
+						<li>Laravel</li>
+						<li>Bootstrap</li>
+						<li>Express.js</li>
+						<li>Node.js</li>
+					<li>Tools</li>
+						<li>VS Code</li>
+						<li>Postman</li>
+						<li>NPM</li>
+						<li>Chrome DevTools</li>
+						<li>Redux</li>
+						<li>Figma</li>
+						<li>Notion</li>
+						<li>Git</li>
+						<li>FastAPI</li>
+						<li>esLint</li>
+						<li>WordPress</li>
+						<li>Styled Components</li>
 				</div>
 			</section>
 		</main>
@@ -103,6 +145,25 @@ import Hero from '../components/Hero.astro';
 		text-decoration-color: currentColor;
 	}
 
+	.hero {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 2rem;
+	}
+
+	.roles {
+		display: none;
+	}
+
+	.hero img {
+		aspect-ratio: 5 / 4;
+		object-fit: cover;
+		object-position: top;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
 	@media (min-width: 50em) {
 		.about {
 			display: grid;
@@ -117,5 +178,140 @@ import Hero from '../components/Hero.astro';
 			display: contents;
 			font-size: var(--text-lg);
 		}
+		.section {
+			grid-template-columns: repeat(4, 1fr);
+			grid-template-areas: 'header header header header' 'gallery gallery gallery gallery';
+			gap: 5rem;
+		}
+
+		.section.with-cta {
+			grid-template-areas: 'header header header cta' 'gallery gallery gallery gallery';
+		}
+
+		.gallery {
+			grid-area: gallery;
+		}
+
+		.hero {
+			display: grid;
+			grid-template-columns: 6fr 4fr;
+			padding-inline: 2.5rem;
+			gap: 3.75rem;
+		}
+
+		.roles {
+			margin-top: 0.5rem;
+			display: flex;
+			gap: 0.5rem;
+		}
+
+		.hero img {
+			aspect-ratio: 3 / 4;
+			border-radius: 4.5rem;
+			object-fit: cover;
+		}
+
+		/* ====================================================== */
+
+	.section {
+		display: grid;
+		gap: 2rem;
+	}
+
+	.with-background {
+		position: relative;
+	}
+
+	.with-background::before {
+		--hero-bg: var(--bg-image-subtle-2);
+
+		content: '';
+		position: absolute;
+		pointer-events: none;
+		left: 50%;
+		width: 100vw;
+		aspect-ratio: calc(2.25 / var(--bg-scale));
+		top: 0;
+		transform: translateY(-75%) translateX(-50%);
+		background:
+			url('/assets/backgrounds/noise.png') top center/220px repeat,
+			var(--hero-bg) center center / var(--bg-gradient-size) no-repeat,
+			var(--gray-999);
+		background-blend-mode: overlay, normal, normal, normal;
+		mix-blend-mode: var(--bg-blend-mode);
+		z-index: -1;
+	}
+
+	.with-background.bg-variant::before {
+		--hero-bg: var(--bg-image-subtle-1);
+	}
+
+	.section-header {
+		justify-self: center;
+		text-align: center;
+		max-width: 50ch;
+		font-size: var(--text-md);
+		color: var(--gray-300);
+	}
+
+	.section-header h3 {
+		font-size: var(--text-2xl);
+	}
+
+	@media (min-width: 50em) {
+		.section {
+			grid-template-columns: repeat(4, 1fr);
+			grid-template-areas: 'header header header header' 'gallery gallery gallery gallery';
+			gap: 5rem;
+		}
+
+		.section.with-cta {
+			grid-template-areas: 'header header header cta' 'gallery gallery gallery gallery';
+		}
+
+		.section-header {
+			grid-area: header;
+			font-size: var(--text-lg);
+		}
+
+		.section-header h3 {
+			font-size: var(--text-4xl);
+		}
+
+		.with-cta .section-header {
+			justify-self: flex-start;
+			text-align: left;
+		}
+
+		.gallery {
+			grid-area: gallery;
+		}
+
+		.cta {
+			grid-area: cta;
+		}
+	}
+
+	/* ====================================================== */
+
+	.mention-card {
+		display: flex;
+		height: 7rem;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		border: 1px solid var(--gray-800);
+		border-radius: 1.5rem;
+		color: var(--gray-300);
+		background: var(--gradient-subtle);
+		box-shadow: var(--shadow-sm);
+	}
+
+	@media (min-width: 50em) {
+		.mention-card {
+			border-radius: 1.5rem;
+			height: 9.5rem;
+		}
+	}
 	}
 </style>

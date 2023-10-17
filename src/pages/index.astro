@@ -28,6 +28,7 @@ const projects = (await getCollection('work'))
 <BaseLayout>
 	<div class="stack gap-20 lg:gap-48">
 		<div class="wrapper stack gap-8 lg:gap-20">
+
 			<header class="hero">
 				<Hero
 					title="Frontend Developer with Web Backend Background"
@@ -53,10 +54,11 @@ const projects = (await getCollection('work'))
 		</div>
 
 		<main class="wrapper stack gap-20 lg:gap-48">
+
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Selected Work</h3>
-					<p>I create custom websites for entrepreneurs, utilizing advanced JavaScript technologies for frontend design. I'm capable to setting integrating databases such as MySQL, MongoDB, and implementing paywall solutions. My portfolio demonstrates capability in MERN stack, JAM stack, WordPress Elementor builder, and more.</p>
+					<p>I create custom websites utilizing advanced JavaScript technologies for frontend design. I'm capable to setting integrated databases such as MySQL, MongoDB, and implementing paywall solutions. My portfolio demonstrates capability in MERN stack, JAM stack, WordPress CMS, and more.</p>
 				</header>
 
 				<div class="gallery">
@@ -81,6 +83,27 @@ const projects = (await getCollection('work'))
 
 			<section class="section with-background bg-variant">
 				<header class="section-header stack gap-2 lg:gap-4">
+					<h3>Main Projects</h3>
+						<p>
+						Building websites with different set tools as showned, making an special effort in captivating eyecatcher lucking design besides than high performance, security, integration safety, authentication and another good features. This projects talks by thenself:
+						</p>					
+				</header>
+
+				<div class="gallery">
+					<Grid variant="small">
+						{
+							['Cali VIP Tours', 'Servicons', 'TDRDT', 'Concultura MC', 'Oportunidades Ilimitadas'].map((brand) => (
+								<li class="mention-card">
+									<p>{brand}</p>
+								</li>
+							))
+						}
+					</Grid>
+				</div>
+			</section>
+
+			<section class="section with-background bg-variant">
+				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Side Projects</h3>
 						<p>
 						As a hard worker besides I'm also passionate about side projects. They allow me to unleash my creativity, building unique and interactive experiences on my terms; experimenting with code, reality bits, cultural trends... Some active side projects that I'm working on are:
@@ -90,7 +113,7 @@ const projects = (await getCollection('work'))
 				<div class="gallery">
 					<Grid variant="small">
 						{
-							['ultraspaces', 'TDR', 'Positiva Cali', 'Reto PC', 'Oportunidades Ilimitadas'].map((brand) => (
+							['ultraspaces', 'Voilatin', 'Positiva Cali'].map((brand) => (
 								<li class="mention-card">
 									<p>{brand}</p>
 								</li>

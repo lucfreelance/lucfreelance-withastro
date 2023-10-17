@@ -26,7 +26,7 @@ In Trozos de Realidad (Pieces of Reality), we create our own system. We have rel
 | _Website designed with particle animation effects, featuring an editorial aspect and mission. TDRDT is becoming a local authority in cultural promotion._ |
 
 --- 
-```asciiart
+```
 TTTTT  DDDD    RRRR    DDDD   TTTTT
   T    D   D   R   R   D   D    T
   T    D   D   RRRR    D   D    T

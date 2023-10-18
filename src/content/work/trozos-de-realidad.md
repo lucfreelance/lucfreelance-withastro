@@ -1,5 +1,5 @@
 ---
-title: Trozos de Realidad [Digital Tier]
+title: Trozos de Realidad Fundación Editorial
 publishDate: 2023-10-15 00:00:00
 featured_img: /assets/imaginery/work-3.jpg
 img: /assets/imaginery/work-3.jpg

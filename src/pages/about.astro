@@ -70,8 +70,9 @@ import Grid from '../components/Grid.astro';
 							<button class="filter-button" data-filter="languages">Languages</button>
 							<button class="filter-button" data-filter="frameworks">Frameworks</button>
 							<button class="filter-button" data-filter="libraries">Libraries</button>
-							<button class="filter-button" data-filter="tools">Kit Tools</button>
+							<button class="filter-button" data-filter="tools">Tools</button>
 							<button class="filter-button" data-filter="cms">CMS</button>
+							<button class="filter-button" data-filter="db">DB</button>
 						</div>
 						<div class="skill-cloud">
 						<!--  -->
@@ -83,6 +84,8 @@ import Grid from '../components/Grid.astro';
 						<li>Frameworks</li>
 						<li>Libraries</li>
 						<li>Kit Tools</li>
+						<li>CMS</li>
+						<li>DB</li>
 					</ul> -->
 				</div>
 			</section>
@@ -500,13 +503,14 @@ document.addEventListener("DOMContentLoaded", function () {
     const skills = [
         { name: "HTML5", category: "languages" },
         { name: "CSS3", category: "languages" },
-        { name: "JavaScript", category: "languages" },
+        { name: "PHP", category: "languages" },
         { name: "SQL", category: "languages" },
         { name: "Python", category: "languages" },
-        { name: "PHP", category: "languages" },
+        { name: "JavaScript", category: "languages" },
         { name: "MarkDown", category: "languages" },
         { name: "BBCode", category: "languages" },
 		{ name: "Node.js", category: "languages" },
+		{ name: "Liquid", category: "languages" },
         { name: "Vite", category: "frameworks" },
         { name: "Hugo", category: "frameworks" },
         { name: "Astro", category: "frameworks" },
@@ -516,30 +520,27 @@ document.addEventListener("DOMContentLoaded", function () {
         { name: "Eleventy", category: "frameworks" },
         { name: "Bootstrap", category: "frameworks" },
         { name: "TailWind CSS", category: "frameworks" },
+		{ name: "Styled Components", category: "libraries" },
         { name: "React.js", category: "libraries" },
+		{ name: "D3.js", category: "libraries" },
 		{ name: "Redux", category: "libraries" },
 		{ name: "Axios", category: "libraries" },
-		{ name: "Express", category: "libraries" },
 		{ name: "jQuery", category: "libraries" },
-		{ name: "Bootstrap", category: "libraries" },
-		{ name: "TypeScript", category: "libraries" },
-		{ name: "Vue.js", category: "libraries" },
-		{ name: "Angular", category: "libraries" },
-		{ name: "D3.js", category: "libraries" },
+		{ name: "Express", category: "libraries" },
 		{ name: "Chart.js", category: "libraries" },
 		{ name: "TensorFlow", category: "libraries" },
-		{ name: "Styled Components", category: "libraries" },
+		{ name: "Bootstrap", category: "libraries" },
+		{ name: "TypeScript", category: "libraries" },
+		{ name: "Angular", category: "libraries" },
+		{ name: "Vue.js", category: "libraries" },
         { name: "VS Code", category: "tools" },
         { name: "Postman", category: "tools" },
         { name: "NPM", category: "tools" },
-        { name: "Chrome DevTools", category: "tools" },
         { name: "Figma", category: "tools" },
         { name: "Notion", category: "tools" },
-        { name: "Git", category: "tools" },
         { name: "FastAPI", category: "tools" },
+        { name: "Git", category: "tools" },
         { name: "esLint", category: "tools" },
-        { name: "MySQL", category: "tools" },
-        { name: "SQLLite", category: "tools" },
         { name: "Discord", category: "tools" },
         { name: "elementor", category: "tools" },
         { name: "Woocommerce", category: "tools" },
@@ -553,7 +554,13 @@ document.addEventListener("DOMContentLoaded", function () {
         { name: "Ghost", category: "cms" },
         { name: "Shopify", category: "cms" },
         { name: "PrestaShop", category: "cms" },
-        { name: "All", category: "all" }
+        { name: "MySQL", category: "db" },
+        { name: "Xampp", category: "db" },
+        { name: "Adminer", category: "db" },
+        { name: "SQLLite", category: "db" },
+        { name: "MariaDB", category: "db" },
+        { name: "MongoDB", category: "db" },
+        { name: "", category: "all" }
     ];
 
 	const skillCloud = document.querySelector(".skill-cloud");

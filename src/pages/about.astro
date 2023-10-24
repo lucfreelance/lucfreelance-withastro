@@ -73,6 +73,7 @@ import Grid from '../components/Grid.astro';
 							<button class="filter-button" data-filter="tools">Tools</button>
 							<button class="filter-button" data-filter="cms">CMS</button>
 							<button class="filter-button" data-filter="db">DB</button>
+							<button class="filter-button" data-filter="os">OS</button>
 						</div>
 						<div class="skill-cloud">
 						<!--  -->
@@ -83,9 +84,10 @@ import Grid from '../components/Grid.astro';
 						<li>Languages</li>
 						<li>Frameworks</li>
 						<li>Libraries</li>
-						<li>Kit Tools</li>
+						<li>Tools</li>
 						<li>CMS</li>
 						<li>DB</li>
+						<li>OS</li>
 					</ul> -->
 				</div>
 			</section>
@@ -501,17 +503,17 @@ import Grid from '../components/Grid.astro';
 <script>
 document.addEventListener("DOMContentLoaded", function () {
     const skills = [
+        { name: "JavaScript", category: "languages" },
+        { name: "Python", category: "languages" },
         { name: "HTML5", category: "languages" },
         { name: "CSS3", category: "languages" },
         { name: "PHP", category: "languages" },
         { name: "SQL", category: "languages" },
-        { name: "Python", category: "languages" },
-        { name: "JavaScript", category: "languages" },
-        { name: "MarkDown", category: "languages" },
         { name: "BBCode", category: "languages" },
-		{ name: "Node.js", category: "languages" },
 		{ name: "Liquid", category: "languages" },
 		{ name: "GraphQL", category: "languages" },
+		{ name: "Node.js", category: "languages" },
+        { name: "MarkDown", category: "languages" },
         { name: "Vite", category: "frameworks" },
         { name: "Hugo", category: "frameworks" },
         { name: "Astro", category: "frameworks" },
@@ -521,46 +523,54 @@ document.addEventListener("DOMContentLoaded", function () {
         { name: "Eleventy", category: "frameworks" },
         { name: "Bootstrap", category: "frameworks" },
         { name: "TailWind CSS", category: "frameworks" },
-		{ name: "Styled Components", category: "libraries" },
         { name: "React.js", category: "libraries" },
+		{ name: "Styled Components", category: "libraries" },
 		{ name: "D3.js", category: "libraries" },
 		{ name: "Redux", category: "libraries" },
 		{ name: "jQuery", category: "libraries" },
-		{ name: "Express", category: "libraries" },
-		{ name: "FontAwesome", category: "libraries" },
 		{ name: "Chart.js", category: "libraries" },
 		{ name: "TensorFlow", category: "libraries" },
-		{ name: "Bootstrap", category: "libraries" },
-		{ name: "TypeScript", category: "libraries" },
 		{ name: "GSAP", category: "libraries" },
 		{ name: "Confetti", category: "libraries" },
+		{ name: "i18o", category: "libraries" },
+        { name: "FastAPI", category: "libraries" },
+        { name: "Minimax", category: "libraries" },
+		{ name: "Express", category: "libraries" },
         { name: "VS Code", category: "tools" },
         { name: "Postman", category: "tools" },
         { name: "NPM", category: "tools" },
         { name: "Figma", category: "tools" },
         { name: "Notion", category: "tools" },
-        { name: "FastAPI", category: "tools" },
+        { name: "API Rest", category: "tools" },
+        { name: "Trello", category: "tools" },
         { name: "Git", category: "tools" },
         { name: "esLint", category: "tools" },
         { name: "Discord", category: "tools" },
-        { name: "elementor", category: "tools" },
+        { name: "Elementor", category: "tools" },
         { name: "Woocommerce", category: "tools" },
         { name: "LocalWP", category: "tools" },
         { name: "WordPress", category: "cms" },
-        { name: "Joomla", category: "cms" },
+        { name: "Joomla!", category: "cms" },
         { name: "Drupal", category: "cms" },
         { name: "Joomla", category: "cms" },
         { name: "Contentful", category: "cms" },
         { name: "Webflow", category: "cms" },
         { name: "Ghost", category: "cms" },
+        { name: "Blogger", category: "cms" },
         { name: "Shopify", category: "cms" },
         { name: "PrestaShop", category: "cms" },
         { name: "MySQL", category: "db" },
-        { name: "Xampp", category: "db" },
         { name: "Adminer", category: "db" },
         { name: "SQLLite", category: "db" },
         { name: "MariaDB", category: "db" },
         { name: "MongoDB", category: "db" },
+        { name: "WAMP", category: "db" },
+        { name: "XAMPP", category: "db" },
+        { name: "Supabase", category: "db" },
+        { name: "MySQL WorkBench", category: "db" },
+        { name: "Microsoft", category: "os" },
+        { name: "Linux", category: "os" },
+        { name: "Mac", category: "os" },
         { name: "", category: "all" }
     ];
 

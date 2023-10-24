@@ -8,9 +8,10 @@ description: |
 tags:
   - Hugo
   - i18o
+  - GraphQL
   - Tachyons
 ---
-> [Explore Cali VIP Tours here](https://caliviptours.com/tours/)
+> Explore Cali VIP Tours [here](https://caliviptours.com/tours/)
 >
 > > "It's All About the Experience"
 > > > 
@@ -29,9 +30,10 @@ Builded with Hugo framework, forked from Ananke frame and empower with modules l
 
 --- 
 ```
- ______     ______     __         __
-/\  ___\   /\  __ \   /\ \       /\ \ 𝕍𝕀ℙ 𝕋𝕠𝕦𝕣𝕤
-\ \ \____  \ \ \_\ \  \ \ \____  \ \ \ 𝕍𝕀ℙ 𝕋𝕠𝕦𝕣𝕤
- \ \_____\  \ \_\ \_\  \ \_____\  \ \_\ 𝕍𝕀ℙ 𝕋𝕠𝕦𝕣𝕤 
-  \/_____/   \/_/·/_/   \/_____/   \/_/  𝕍𝕀ℙ 𝕋𝕠𝕦𝕣𝕤 
+   ______     ______     __         __
+  /\  ___\   /\  __ \   /\ \       /\ \ 𝕍𝕀ℙ 𝕋𝕠𝕦𝕣𝕤
+  \ \ \____  \ \ \_\ \  \ \ \____  \ \ \ 𝕍𝕀ℙ 𝕋𝕠𝕦𝕣𝕤
+   \ \_____\  \ \_\ \_\  \ \_____\  \ \_\ 𝕍𝕀ℙ 𝕋𝕠𝕦𝕣𝕤 
+    \/_____/   \/_/·/_/   \/_____/   \/_/  𝕍𝕀ℙ 𝕋𝕠𝕦𝕣𝕤 
+    
 ```

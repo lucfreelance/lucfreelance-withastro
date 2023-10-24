@@ -10,7 +10,7 @@ tags:
   - Pigments
   - FontAwesome
 ---
-> [Explore Positiva Cali here](https://positiva.netlify.com)
+> Explore Positiva Cali [here](https://positiva.netlify.com)
 >
 > > "Positive Ever Green News + Notes" 
 > > > 
@@ -29,12 +29,13 @@ Builded with Hugo framework, forked from Lightbi frame. Some features that I'd u
 
 --- 
 ```
-  _   _   _   _   _   _   _   _               ▲
- / \ / \ / \ / \ / \ / \ / \ / \ 
-| p | o | s | i | t | i | v | a |
- \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ 
-· █▀▀ █▀█ █   █ · █▀▀ █▀█ █   █ ·
-· █   █▄█ █   █ · █   █▄█ █   █ ·
-· █▄▄ █ █ █▄▄ █ · █▄▄ █ █ █▄▄ █ ·
-·································
+    _   _   _   _   _   _   _   _               ▲
+   / \ / \ / \ / \ / \ / \ / \ / \ 
+  | p | o | s | i | t | i | v | a |
+   \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ 
+  · █▀▀ █▀█ █   █ · █▀▀ █▀█ █   █ ·
+  · █   █▄█ █   █ · █   █▄█ █   █ ·
+  · █▄▄ █ █ █▄▄ █ · █▄▄ █ █ █▄▄ █ ·
+  ·································
+  
 ```

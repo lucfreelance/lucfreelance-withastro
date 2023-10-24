@@ -10,7 +10,7 @@ tags:
   - React
   - Styled Components
 ---
-> [Explore ultraspaces here](https://ultraspaces.netlify.app)
+> Explore ultraspaces [here](https://ultraspaces.netlify.app)
 >
 > > "Where You Can Have Fun and Take Cool Breaks"
 > > 
@@ -29,14 +29,16 @@ Ultraspaces delves into the principles of social sharing, serving as a testing g
 
 --- 
 ```
-UU   UU  LL    TTTTTT  RRRRRR     A
-UU   UU  LL      TT    RR   RR   A A
-UU   UU  LL      TT    RRRRRR   AAAAA
-UU   UU  LL      TT    RR  RR  A     A
- UUUUU   LLLLLL  TT    RR  RR A       A
-SSSSS PPPPPP    A     CCCCC EEEEE SSSSS
-SS    PP   PP  A A    CC    EE    SS
-SSSSS PPPPPP  AAAAA   CC    EEEEE SSSSS
-   SS PP     A     A  CC    EE       SS
-SSSSS PP    A       A CCCCC EEEEE SSSSS
+
+  UU   UU  LL    TTTTTT  RRRRRR     A
+  UU   UU  LL      TT    RR   RR   A A
+  UU   UU  LL      TT    RRRRRR   AAAAA
+  UU   UU  LL      TT    RR  RR  A     A
+   UUUUU   LLLLLL  TT    RR  RR A       A
+  SSSSS PPPPPP    A     CCCCC EEEEE SSSSS
+  SS    PP   PP  A A    CC    EE    SS
+  SSSSS PPPPPP  AAAAA   CC    EEEEE SSSSS
+     SS PP     A     A  CC    EE       SS
+  SSSSS PP    A       A CCCCC EEEEE SSSSS
+  
 ```

@@ -7,7 +7,6 @@ img_alt: Creamos Nuestro Propio Sistema
 description: |
 tags:
   - Jekyll
-  - Mocha
   - Particles
   - Codedrops
   - Trianglify
@@ -36,5 +35,5 @@ In Trozos de Realidad, we create our own system. And we'd relaunched TDR with a 
     T    D   D   RRRR    D   D    T
     T    D   D   R  R    D   D    T
     T    DDDD    R   R   DDDD     T
-
+.
 ```

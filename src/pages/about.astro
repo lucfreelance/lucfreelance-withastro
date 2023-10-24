@@ -67,10 +67,12 @@ import Grid from '../components/Grid.astro';
 					<div class="content-skills">
 						<div class="filter-buttons">
 							<button class="filter-button active" data-filter="all">All</button>
-							<button class="filter-button" data-filter="languages">Languages</button>
-							<button class="filter-button" data-filter="frameworks">Frameworks</button>
-							<button class="filter-button" data-filter="libraries">Libraries</button>
-							<button class="filter-button" data-filter="tools">Tools</button>
+							<button class="filter-button" data-filter="languages">Language</button>
+							<button class="filter-button" data-filter="frameworks">Framework</button>
+							<button class="filter-button" data-filter="libraries">Library</button>
+							<button class="filter-button" data-filter="tools">Tool</button>
+							<button class="filter-button" data-filter="db">Testing</button>
+							<button class="filter-button" data-filter="os">API</button>
 							<button class="filter-button" data-filter="cms">CMS</button>
 							<button class="filter-button" data-filter="db">DB</button>
 							<button class="filter-button" data-filter="os">OS</button>
@@ -81,10 +83,12 @@ import Grid from '../components/Grid.astro';
 					</div>
 					<!-- <ul>
 						<li>All</li>
-						<li>Languages</li>
-						<li>Frameworks</li>
-						<li>Libraries</li>
-						<li>Tools</li>
+						<li>Language</li>
+						<li>Framework</li>
+						<li>Library</li>
+						<li>Tool</li>
+						<li>Test</li>
+						<li>API</li>
 						<li>CMS</li>
 						<li>DB</li>
 						<li>OS</li>
@@ -514,6 +518,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		{ name: "GraphQL", category: "languages" },
 		{ name: "Node.js", category: "languages" },
         { name: "MarkDown", category: "languages" },
+        { name: "Sass", category: "languages" },
         { name: "Vite", category: "frameworks" },
         { name: "Hugo", category: "frameworks" },
         { name: "Astro", category: "frameworks" },
@@ -523,6 +528,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { name: "Eleventy", category: "frameworks" },
         { name: "Bootstrap", category: "frameworks" },
         { name: "TailWind CSS", category: "frameworks" },
+        { name: "Scully", category: "frameworks" },
         { name: "React.js", category: "libraries" },
 		{ name: "Styled Components", category: "libraries" },
 		{ name: "D3.js", category: "libraries" },
@@ -535,6 +541,7 @@ document.addEventListener("DOMContentLoaded", function () {
 		{ name: "i18o", category: "libraries" },
         { name: "FastAPI", category: "libraries" },
         { name: "Minimax", category: "libraries" },
+        { name: "Helmet", category: "libraries" },
 		{ name: "Express", category: "libraries" },
         { name: "VS Code", category: "tools" },
         { name: "Postman", category: "tools" },
@@ -546,9 +553,27 @@ document.addEventListener("DOMContentLoaded", function () {
         { name: "Git", category: "tools" },
         { name: "esLint", category: "tools" },
         { name: "Discord", category: "tools" },
+        { name: "DevTools", category: "tools" },
         { name: "Elementor", category: "tools" },
         { name: "Woocommerce", category: "tools" },
         { name: "LocalWP", category: "tools" },
+        { name: "Jest", category: "testing" },
+        { name: "Vitest", category: "testing" },
+        { name: "Pytest", category: "testing" },
+        { name: "Mocha", category: "testing" },
+        { name: "Selenium", category: "testing" },
+        { name: "unittest", category: "testing" },
+        { name: "Nose", category: "testing" },
+        { name: "JUnit", category: "testing" },
+        { name: "Locust", category: "testing" },
+        { name: "FastAPI", category: "API" },
+        { name: "Puppeteer", category: "API" },
+        { name: "REST Countries API", category: "API" },
+        { name: "Unsplash API", category: "API" },
+        { name: "FastAPI", category: "API" },
+        { name: "GIPHY API", category: "API" },
+        { name: "Google Maps API", category: "API" },
+        { name: "GIPHY API", category: "API" },
         { name: "WordPress", category: "cms" },
         { name: "Joomla!", category: "cms" },
         { name: "Drupal", category: "cms" },

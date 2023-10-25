@@ -10,7 +10,7 @@ tags:
   - React
   - Styled Components
 ---
-> Explore ultraspaces [here](https://ultraspaces.netlify.app)
+> Explore ultraspaces [here](https://ultraspaces.netlify.app/spaces)
 >
 > > "Where You Can Have Fun and Take Cool Breaks"
 > > 

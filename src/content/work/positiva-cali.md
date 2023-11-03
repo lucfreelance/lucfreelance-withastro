@@ -23,12 +23,12 @@ Builded with Hugo framework, forked from Lightbi frame. Some features that I'd u
 |  Hugo Made Based in 𝕁𝔸𝕄 Stack with Vercel Deploy  |
 |----------------------------------------------------------------|
 | |
-| ![Hugo](https://i.imgur.com/44EVa6K.png) Hugo ![Sass](https://img.icons8.com/color/48/000000/sass.png) Sass ![Bootstrap](https://img.icons8.com/color/48/000000/bootstrap.png) Bootstrap ![MarkDown](https://img.icons8.com/color/48/000000/markdown.png) MarkDown  | 
+| ![Hugo](https://i.imgur.com/44EVa6K.png) Hugo ![Sass](https://img.icons8.com/color/48/000000/sass.png) Sass ![Bootstrap](https://img.icons8.com/color/48/000000/bootstrap.png) Bootstrap   | 
 | |
 | _Website showcasing a side project with positive reach. Textual content and eventually coverage of local positive events._ |
 
 --- 
-```
+```yaml
     _   _   _   _   _   _   _   _               ▲
    / \ / \ / \ / \ / \ / \ / \ / \ 
   | p | o | s | i | t | i | v | a |

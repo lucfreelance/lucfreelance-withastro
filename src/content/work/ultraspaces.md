@@ -28,7 +28,7 @@ Ultraspaces delves into the principles of social sharing, serving as a testing g
 | _Website designed to showcase freestyle components, short games, animations, and educational content for both learning and entertainment purposes._ |
 
 --- 
-```
+```yaml
 
   UU   UU  LL    TTTTTT  RRRRRR     A
   UU   UU  LL      TT    RR   RR   A A

@@ -28,7 +28,7 @@ In Trozos de Realidad, we create our own system. And we'd relaunched TDR with a 
 | _Website designed with Trianglify + SVG clipPath animation effects. Featured as an editorial prospect project and mission. TDR intent to become in a local authority in cultural trending._ |
 
 --- 
-```
+```yaml
 
   TTTTT  DDDD    RRRR    DDDD   TTTTT
     T    D   D   R   R   D   D    T

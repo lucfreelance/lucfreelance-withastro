@@ -15,7 +15,13 @@ tags:
 >
 > > "It's All About the Experience"
 > > > 
-> > > ![Cali VIP Tours logo](https://caliviptours.com/logos/logo-trans.png)
+> > > <div style="display: flex; align-items: center;">
+> > >   <img src="https://caliviptours.com/logos/logo-trans.png" alt="Cali VIP Tours Logo" style="width: 200px; max-width: 100%; margin-right: 20px;">
+> > >   <div>
+> > >     Cali VIP Tours offers exceptional experiences to explore the beauty of Cali, Colombia. Our mission is to provide unforgettable moments and create lasting memories for our guests.
+> > >   </div>
+> > > </div>
+
 
 Static website for an enterprise around tourism industry. Cali VIP Tours is a project dedicated to showcasing the essence of Cali in a unique way, related to tour experiences for people visiting the city_.
 

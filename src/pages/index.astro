@@ -11,7 +11,6 @@ import Hero from '../components/Hero.astro';
 import Icon from '../components/Icon.astro';
 import Pill from '../components/Pill.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
-
 // Page section components
 import ContactCTA from '../components/ContactCTA.astro';
 import Skills from '../components/Skills.astro';
@@ -58,7 +57,7 @@ const projects = (await getCollection('work'))
 			<section class="section with-background with-cta">
 				<header class="section-header stack gap-2 lg:gap-4">
 					<h3>Selected Work</h3>
-					<p>Creating and improving websites utilizing tools like advanced JavaScript technologies for frontend design. Besides with an hability to develop almost any frame from famous frameworks family for JS buils, like Astro, Hugo, 11ty, Bootstrap, jekyll and more.  My portfolio demonstrates capability in MERN stack, JAM stack, even WordPress CMS.</p>
+					<p>Creating and improving websites utilizing tools like advanced JavaScript technologies for frontend design. With an hability to develop almost any frame from famous frameworks family for JS builds like Astro, Jekyll; CSS frameworks like TailWind CSS, 11ty, Bootstrap,  and more.  My portfolio demonstrates capability in MERN stack, JAM stack and WordPress CMS.</p>
 				</header>
 
 				<div class="gallery">
@@ -122,6 +121,29 @@ const projects = (await getCollection('work'))
 					</Grid>
 				</div>
 			</section>
+
+			<section class="section with-background bg-variant">
+				<header class="section-header stack gap-2 lg:gap-4">
+					<h3>Contributions</h3>
+					<p>Some of my most significant as role as remote in tech companies:</p>
+				</header>
+			
+				<div class="gallery">
+					<Grid variant="small">
+						<li class="gallery-item">
+							<img src="/assets/icons/appen-connect.png" alt="Appen Connect" />
+						</li>
+						<li class="gallery-item">
+							<img src="/assets/icons/crowdflower.png" alt="CrowdFlower" />
+						</li>
+						<li class="gallery-item">
+							<img src="/assets/icons/figure8.png" alt="Figure Eight" />
+						</li>
+					</Grid>
+				</div>
+			</section>
+			
+
 		</main>
 
 		<ContactCTA />
@@ -271,4 +293,19 @@ const projects = (await getCollection('work'))
 			height: 9.5rem;
 		}
 	}
+
+
+	.gallery {
+   grid-area: gallery;
+}
+
+.gallery-item {
+   list-style: none;
+}
+
+.gallery-item img {
+   width: 100%; /* Ajusta el ancho de las imágenes según tus necesidades */
+   height: auto;
+}
+
 </style>

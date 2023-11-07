@@ -1,6 +1,6 @@
 ---
 title: Trozos de Realidad
-publishDate: 2023-10-15 00:00:00
+publishDate: 2023-07-15 00:00:00
 featured_img: /assets/imaginery/work-3.jpg
 img: /assets/imaginery/work-3.jpg
 img_alt: Creamos Nuestro Propio Sistema

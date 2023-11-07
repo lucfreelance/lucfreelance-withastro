@@ -1,6 +1,6 @@
 ---
 title: Voilatin
-publishDate: 2023-10-15 00:00:00
+publishDate: 2023-08-15 00:00:00
 featured_img: /assets/imaginery/work-5.jpg
 img: /assets/imaginery/work-5.jpg
 img_alt: Virtual Assistance, Community Manager & Social Media
